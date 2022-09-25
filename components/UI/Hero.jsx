@@ -5,37 +5,40 @@ import Image from "next/image";
 import Link from "next/link";
 import heroImg from "../../public/images/hero.jpg";
 import classes from "../../styles/hero.module.css";
+// import CV from "../../public/files/pykon_ticket.pdf"
+
+
 
 const Hero = () => {
   return (
-    <section className={`${classes.hero}`}>
+    <div className={`${classes.hero}`}>
       <Container>
-        <Row>
+        {/* <Row> */}
           {/* ========== hero content ============= */}
-          <Col lg="6" md="6">
+          {/* <Col lg="6" md="6"> */}
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
               <h2 className="mt-3 mb-3">I&apos;m Githaiga Kairuthi</h2>
-              <h5 className="mb-4">Frontend Developer</h5>
+              <h5 className="mb-4">FullStack Developer</h5>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Impedit rem sint ipsa cumque. Atque rem vel iusto impedit omnis
                 quos!
               </p>
               <div className="mt-5">
-                <button className="primary__btn">
+                {/* <button className="primary__btn">
                   <Link href="#">Hire me</Link>
-                </button>
+                </button> */}
 
-                <button className="secondary__btn">
-                  <Link href="#">Download CV</Link>
+                <button className="primary__btn">
+                  <a href={heroImg} download>Download Resume</a>
                 </button>
               </div>
             </div>
-          </Col>
+          {/* </Col> */}
 
           {/* ========== hero img ============= */}
-          <Col lg="6" md="6">
+          {/* <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
               <Image alt="hero-image" src={heroImg} width="400" height="400" />
 
@@ -59,6 +62,7 @@ const Hero = () => {
                 <span>
                   <i className="ri-bar-chart-line"></i>
                 </span>
+                
               </div>
 
               <div
@@ -73,10 +77,10 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-          </Col>
-        </Row>
+          </Col> */}
+        {/* </Row> */}
       </Container>
-    </section>
+    </div>
   );
 };
 

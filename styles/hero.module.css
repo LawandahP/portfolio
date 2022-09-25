@@ -1,5 +1,9 @@
 .hero {
   padding-top: 60px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .hero__content h5 {
   color: #808dad;

@@ -1,5 +1,9 @@
 .contact {
   padding-bottom: 60px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .contact__info__list {

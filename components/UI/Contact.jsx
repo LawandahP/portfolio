@@ -9,28 +9,28 @@ const Contact = () => {
   return (
     <section id="contact" className={`${classes.contact}`}>
       <Container>
-        <Row>
-          <Col lg="6" md="6">
+        {/* <Row>
+          <Col lg="6" md="6"> */}
             <SectionSubtitle subtitle="Contact me" />
-            <h3 className="mt-4 mb-4">Contact with me</h3>
+            {/* <h3 className="mt-4 mb-4">Contact with me</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
               beatae ratione iusto cum. Doloremque suscipit eius provident error
               labore est reprehenderit, exercitationem corrupti earum deleniti!
-            </p>
+            </p> */}
 
             <ul className={`${classes.contact__info__list}`}>
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-map-pin-line"></i>
                 </span>
-                <p>Sylhet - Bangladesh</p>
+                <p>Nairobi - Kenya</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-mail-line"></i>
                 </span>
-                <p>githaigakairuthi56@@gmail.com</p>
+                <p>githaigakairuthi56@gmail.com</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span>
@@ -57,12 +57,12 @@ const Contact = () => {
                 <i className="ri-instagram-line"></i>
               </Link>
             </div>
-          </Col>
+          {/* </Col> */}
 
-          <Col lg="6" md="6">
+          {/* <Col lg="6" md="6">
             <Form />
-          </Col>
-        </Row>
+          </Col> */}
+        {/* </Row> */}
       </Container>
     </section>
   );
