@@ -6,6 +6,7 @@ import Link from "next/link";
 import heroImg from "../../public/images/hero.jpg";
 import classes from "../../styles/hero.module.css";
 // import CV from "../../public/files/pykon_ticket.pdf"
+import Typed from "react-typed";
 
 
 
@@ -18,20 +19,37 @@ const Hero = () => {
           {/* <Col lg="6" md="6"> */}
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
-              <h2 className="mt-3 mb-3">I&apos;m Githaiga Kairuthi</h2>
-              <h5 className="mb-4">FullStack Developer</h5>
+              {/* <h2 className="mt-3 mb-3"> </h2> */}
+
+              <div className={`${classes.animated__typing}`}>
+                  I&apos;m <Typed
+                              strings={[
+                                "Githaiga Kairuthi",
+                                "a Software Engineer"
+                              ]}
+                              typeSpeed={150}
+                              backSpeed={100}
+                              backDelay={20}
+                              loop
+                            />
+                </div>
+
+              <p></p>
+              <p></p>
+              <p></p>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                {/* Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Impedit rem sint ipsa cumque. Atque rem vel iusto impedit omnis
-                quos!
+                quos! */}
               </p>
               <div className="mt-5">
-                {/* <button className="primary__btn">
-                  <Link href="#">Hire me</Link>
-                </button> */}
-
                 <button className="primary__btn">
-                  <a href={heroImg} download>Download Resume</a>
+                  <a href = "mailto: githaigakairuthi56@gmail.com">Get In Touch</a>
+                  {/* <Link href="#portfolio">My Portfolio</Link> */}
+                </button>
+
+                <button className="secondary__btn">
+                  <a href="/files/pykon_ticket.pdf" download>Download Resume</a>
                 </button>
               </div>
             </div>

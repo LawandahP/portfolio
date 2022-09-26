@@ -1,9 +1,15 @@
+.animated__typing {
+  font-size: 3rem;
+  color: #fff;
+}
+
 .hero {
   padding-top: 60px !important;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: 60vh;
 }
 .hero__content h5 {
   color: #808dad;

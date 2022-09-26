@@ -6,6 +6,15 @@
   text-align: center;
 }
 
+.contact__item {
+  color: #808dad;
+  text-decoration: none;
+}
+
+.contact__item:hover {
+  color: #01d293;
+}
+
 .contact__info__list {
   list-style: none;
   padding-left: 0;
@@ -41,8 +50,24 @@
   cursor: pointer;
 }
 
+.social__links:hover {
+  color: #01d293;
+}
+
+.map {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media only screen and (max-width: 768px) {
   .social__links {
     margin-bottom: 30px;
+  }
+
+  .map {
+    margin-top: 10px;
   }
 }

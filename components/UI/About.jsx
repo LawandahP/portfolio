@@ -13,13 +13,17 @@ import classes from "../../styles/about.module.css";
 
 
 const skills = [
-  {skill: "Problem Solving"},
+  {skill: "Accountability"},
   {skill: "Extensive Research Skills"},
+  {skill: "Creativity"},
+  {skill: "Time Management"},
 ]
 
 const skills2 = [
-  {skill: "Creative Idea"},
-  {skill: "High Quality"},
+  {skill: "Problem Solving"},
+  {skill: "Passion Driven"},
+  {skill: "Respect"},
+  {skill: "Teamwork"},
 ]
 
 const About = () => {
@@ -30,23 +34,26 @@ const About = () => {
           <Col lg="6" className={`${classes.about__content}`}>
             <SectionSubtitle subtitle="About me" />
             <h3 className="mt-4">I&apos;m here</h3>
-            <h3 className="mb-4">to help your next project</h3>
+            <h3 className="mb-4">to help with your next project</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              neque asperiores temporibus quo saepe odio, esse labore libero
-              obcaecati quidem explicabo blanditiis deleniti ex vitae ratione
-              ullam fugiat dicta eum sint officiis porro illum quia. Error quam
-              cum excepturi beatae.
+              Githaiga Kairuthi is a Software Engineer base in Nairobi, Kenya having a 
+              specialization in <strong>frontend and backend development.</strong><br></br>
+              I have 2+ years experience in full stack Web Development having strong 
+              <strong> React & Django Skills</strong>.<br></br>
+              I have backend skills in <strong>Python(Django, Django Rest Framework, FastAPI, Flask)</strong>. 
+              I also have Frontend skills in <strong>Javascript, CSS3/SASS, Angular </strong>and <strong>Vue</strong>.<br></br>
+              Various Technologies i&apos;ve interacted with and used include <strong>Docker, Docker Swarm, Kubernetes, Nginx</strong> and <strong>Traefik</strong>.
             </p>
 
             <div className="mt-5">
               <button className="primary__btn">
-                <Link href="#portfolio">My Portfolio</Link>
+                <a href = "mailto: githaigakairuthi56@gmail.com">Get In Touch</a>
+                {/* <Link href="#portfolio">My Portfolio</Link> */}
               </button>
 
               <button className="secondary__btn">
-                <Link href="#">Download CV</Link>
-              </button>
+              <a href="/files/pykon_ticket.pdf" download>Download Resume</a>
+               </button>
             </div>
           </Col>
 
@@ -105,7 +112,7 @@ const About = () => {
                   ))}
                 </div>
 
-                <div>
+                {/* <div>
                   {skills2.map((skill) => (
                     <h6 key={skill.skill} className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                       <span className={`${classes.about__icon}`}>
@@ -114,7 +121,7 @@ const About = () => {
                       {skill.skill}
                     </h6>
                   ))}
-                </div>
+                </div> */}
 
               </div>
               
