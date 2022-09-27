@@ -27,9 +27,9 @@ const Hero = () => {
                                 "Githaiga Kairuthi",
                                 "a Software Engineer"
                               ]}
-                              typeSpeed={150}
+                              typeSpeed={50}
                               backSpeed={100}
-                              backDelay={20}
+                              backDelay={10}
                               loop
                             />
                 </div>

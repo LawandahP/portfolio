@@ -4,12 +4,11 @@
 }
 
 .hero {
-  padding-top: 60px !important;
-  display: flex;
+  display: flex !important;
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 60vh;
+  height: 70vh;
 }
 .hero__content h5 {
   color: #808dad;
@@ -134,6 +133,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .hero {
+    height: 80vh;
+  }
   .hero__img {
     text-align: center !important;
     margin-top: 50px;
@@ -145,6 +147,11 @@
 
   .hero__experience {
     right: 20%;
+  }
+
+  .animated__typing {
+    margin-top: 30px;
+    font-size: 1.3rem;
   }
 }
 
