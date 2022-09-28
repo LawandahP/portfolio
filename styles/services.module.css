@@ -15,6 +15,10 @@
   cursor: pointer;
 }
 
+.ul {
+  color: #fff;
+}
+
 @media only screen and (max-width: 992px) {
   .services__container {
     flex-direction: column;

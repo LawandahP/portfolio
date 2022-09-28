@@ -16,5 +16,5 @@ export default function Home() {
       {/* <Testimonial /> */}
       <Contact />
     </Fragment>
-  );
+  )
 }

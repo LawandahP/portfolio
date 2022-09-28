@@ -34,13 +34,12 @@
   cursor: pointer;
 }
 
-.nav__menu a:hover {
+.nav__menu a:hover, .nav__menu a:active {
   color: #01d293;
+  border-bottom: 3px solid #01d293;
+  transition: all 0.2s ease-in-out;
 }
 
-.nav__menu a:first-child {
-  color: #01d293;
-}
 
 .nav__right p {
   color: #01d293;

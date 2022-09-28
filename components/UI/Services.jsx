@@ -13,9 +13,9 @@ const Services = () => {
           
           <Col lg="6" md="6" className={`${classes.service__title}`}>
             <SectionSubtitle subtitle="What I do" />
-            <h3 className="mb-0 mt-4">Better Design,</h3>
+            <h3 className="mb-0 mt-4">Sleek Design,</h3>
             <h3 className="mb-4">Seamless Experience</h3>
-            <ul>
+            <ul className={`${classes.ul}`}>
               <li>I specialize mainly in React and Django web applications.</li>
               <li>Maintaining existing React systems, including fixing bugs</li>
               <li>Design and develop new custom components to meet project requirements</li>

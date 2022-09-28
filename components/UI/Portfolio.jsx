@@ -61,7 +61,7 @@ const Portfolio = () => {
           </Col>
 
           {data?.map((item) => (
-            <Col lg="4" md="4" sm="6" key={item.id}>
+            <Col lg="3" md="3" sm="12" key={item.id}>
               <PortfolioItem item={item} />
             </Col>
           ))}

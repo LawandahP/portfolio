@@ -25,7 +25,7 @@ const NAV__LINK = [
     path: "#contact",
     display: "Contact",
   },
-];
+]
 
 const Footer = () => {
   const date = new Date();
@@ -47,9 +47,9 @@ const Footer = () => {
           </Col>
 
           <Col lg="6" className={`${classes.footer__top}`}>
-            <div className={`${classes.footer__creator}`}>
+            {/* <div className={`${classes.footer__creator}`}>
               <h6>Created by Githaiga</h6>
-            </div>
+            </div> */}
           </Col>
 
           {/* ========= footer bottom ========= */}

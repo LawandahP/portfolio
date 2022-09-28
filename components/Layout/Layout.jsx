@@ -9,7 +9,7 @@ const Layout = (props) => {
       <div>{props.children}</div>
       <Footer />
     </Fragment>
-  );
-};
+  )
+}
 
 export default Layout;
