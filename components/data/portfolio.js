@@ -1,84 +1,87 @@
 const portfolio = [
   {
     id: "01",
-    title: "",
+    title: "KgHomes Property Management System",
     img: "/images/portfolio1.png",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
+    category: "Web App",
+    keyword: ["Web ", "Django Rest Framework", "React Js", "Docker"],
+    repo: "https://gitlab.com/LawandahP/lebron-james",
+    liveUrl: ""
   },
 
   {
     id: "02",
-    title: "",
-    img: "/images/portfolio2.png",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
+    title: "Garage Management System Landing Page",
+    img: "/images/portfolio11.png",
+    category: "Web App",
+    keyword: ["Web ", "App", "UI-UX"],
+    repo: "https://github.com/LawandahP/ngaraj-landing",
+    liveUrl: "https://ngaraj.netlify.app/"
   },
 
   {
     id: "03",
     title: "",
-    img: "/images/portfolio3.png",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
+    img: "/images/customrughouse.png",
+    category: "Web App",
+    keyword: ["Web ", "React Js", "Django", "Django Rest Framework"],
+    repo: "",
+    liveUrl: "https://customrughouse.herokuapp.com/",
   },
 
-  {
-    id: "04",
-    title: "",
-    img: "/images/portfolio4.png",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
-  },
+  // {
+  //   id: "04",
+  //   title: "",
+  //   img: "/images/portfolio4.png",
+  //   category: "Web App",
+  //   keyword: ["Web ", "App", "UI-UX"],
+  //   repo: "#",
+  // },
 
-  {
-    id: "05",
-    title: "",
-    img: "/images/portfolio5.png",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
-  },
+  // {
+  //   id: "05",
+  //   title: "",
+  //   img: "/images/portfolio5.png",
+  //   category: "Web App",
+  //   keyword: ["Web ", "App", "UI-UX"],
+  //   repo: "#",
+  // },
 
-  {
-    id: "06",
-    title: "",
-    img: "/images/portfolio6.png",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
-  },
+  // {
+  //   id: "06",
+  //   title: "",
+  //   img: "/images/portfolio6.png",
+  //   category: "Web App",
+  //   keyword: ["Web ", "App", "UI-UX"],
+  //   repo: "#",
+  // },
 
-  {
-    id: "07",
-    title: "",
-    img: "/images/portfolio7.png",
-    category: "Web Design",
-    keyword: ["Web", "Web design", "UI-UX"],
-    liveUrl: "#",
-  },
+  // {
+  //   id: "07",
+  //   title: "",
+  //   img: "/images/portfolio7.png",
+  //   category: "Web Design",
+  //   keyword: ["Web", "Web design", "UI-UX"],
+  //   repo: "#",
+  // },
 
-  {
-    id: "08",
-    title: "",
-    img: "/images/portfolio8.png",
-    category: "Web Design",
-    keyword: ["Web", "Web design", "UI-UX"],
-    liveUrl: "#",
-  },
+  // {
+  //   id: "08",
+  //   title: "",
+  //   img: "/images/portfolio8.png",
+  //   category: "Web Design",
+  //   keyword: ["Web", "Web design", "UI-UX"],
+  //   repo: "#",
+  // },
 
-  {
-    id: "09",
-    title: "",
-    img: "/images/portfolio9.png",
-    category: "Web Design",
-    keyword: ["Web", "Web design", "UI-UX"],
-    liveUrl: "#",
-  },
+  // {
+  //   id: "09",
+  //   title: "",
+  //   img: "/images/portfolio9.png",
+  //   category: "Web Design",
+  //   keyword: ["Web", "Web design", "UI-UX"],
+  //   repo: "#",
+  // },
 ];
 
 export default portfolio;

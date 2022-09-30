@@ -61,18 +61,23 @@ footer {
 }
 
 .secondary__btn {
-  background: transparent;
+  background: none;
   border: none;
   outline: none;
   padding: 7px 25px;
 }
 
+.secondary__btn:hover {
+  color: #fff;
+}
+
 .secondary__btn a {
   color: #01d293 !important;
+  text-decoration: none;
 }
 .primary__btn a:hover,
 .secondary__btn a:hover {
-  color: #01d293;
+  color: #fff;
 }
 
 ::-webkit-scrollbar {
