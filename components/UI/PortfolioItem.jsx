@@ -20,7 +20,9 @@ const PortfolioItem = (props) => {
         <Image alt="portfolio-img" src={img} width="700" height="350" />
       </div>
 
-      <div className={`${classes.portfolio__live} bg-transparent`}>
+      
+
+      {/* <div className={`${classes.portfolio__live} bg-transparent`}>
         {
           repo && 
             <button className="primary__btn">
@@ -34,7 +36,21 @@ const PortfolioItem = (props) => {
               <Link href={liveUrl}>Demo</Link>
             </button>
         }
+      </div> */}
+
+      <div className="mt-5">
+        {repo && 
+        <Link href = {repo}>
+          <button className="primary__btn">Repo</button>
+        </Link>
+        }
+        {liveUrl && 
+        <button className="secondary__btn">
+          <Link href={liveUrl} download>liveUrl</Link>
+        </button>
+        }
       </div>
+      
     </div>
   );
 };

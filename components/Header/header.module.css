@@ -92,7 +92,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #171f3897;
+    background: #01d293;
     z-index: 99999;
     display: none;
   }
@@ -113,6 +113,7 @@
 
   .mobile__menu {
     display: block !important;
+    color: #01d29344;
   }
 
   .menu__active {

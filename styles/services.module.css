@@ -16,7 +16,12 @@
 }
 
 .ul {
-  color: #fff;
+  color: #808dad;
+}
+
+.service__title h3 {
+  /* font-size: 1.3rem; */
+  color: #808dad;
 }
 
 @media only screen and (max-width: 992px) {
@@ -27,5 +32,6 @@
 
   .service__title h3 {
     font-size: 1.3rem;
+    color: #808dad;
   }
 }

@@ -4,7 +4,7 @@ const portfolio = [
     title: "KgHomes Property Management System",
     img: "/images/portfolio1.png",
     category: "Web App",
-    keyword: ["Web ", "Django Rest Framework", "React Js", "Docker"],
+    keyword: ["Web ", "Django Rest Framework", "React Js", "Docker", "Kubernetes", "Traefik"],
     repo: "https://gitlab.com/LawandahP/lebron-james",
     liveUrl: ""
   },
@@ -14,17 +14,17 @@ const portfolio = [
     title: "Garage Management System Landing Page",
     img: "/images/portfolio11.png",
     category: "Web App",
-    keyword: ["Web ", "App", "UI-UX"],
+    keyword: ["Web ", "App", "UI-UX", "Next Js", "Django Rest Framework"],
     repo: "https://github.com/LawandahP/ngaraj-landing",
     liveUrl: "https://ngaraj.netlify.app/"
   },
 
   {
     id: "03",
-    title: "",
+    title: "E-commerce Web App",
     img: "/images/customrughouse.png",
     category: "Web App",
-    keyword: ["Web ", "React Js", "Django", "Django Rest Framework"],
+    keyword: ["Web ", "React Js", "Django", "Django Rest Framework", "Docker"],
     repo: "",
     liveUrl: "https://customrughouse.herokuapp.com/",
   },

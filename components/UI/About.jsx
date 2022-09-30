@@ -30,106 +30,26 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Row>
-          <Col lg="6" className={`${classes.about__content}`}>
             <SectionSubtitle subtitle="About me" />
-            <h3 className="mt-4">I&apos;m here</h3>
-            <h3 className="mb-4">to help with your next project</h3>
             <p>
-              Githaiga Kairuthi is a Software Engineer base in Nairobi, Kenya having a 
-              specialization in <strong>frontend and backend development.</strong><br></br>
-              I have 2+ years experience in full stack Web Development having strong 
-              <strong> React & Django Skills</strong>.<br></br>
-              I have backend skills in <strong>Python(Django, Django Rest Framework, FastAPI, Flask)</strong>. 
-              I also have Frontend skills in <strong>Javascript, CSS3/SASS, Angular </strong>and <strong>Vue</strong>.<br></br>
-              Various Technologies i&apos;ve interacted with and used include <strong>Docker, Docker Swarm, Kubernetes, Nginx</strong> and <strong>Traefik</strong>.
+              My name is Githaiga Kairuthi. I&apos;m a fullstack developer living and working in Nairobi, Kenya. I mainly work with Python, React, and container technologies. I&apos;m passionate about automation, developing software that helps people in their day to day activities, and increasing my skills and productivity.
             </p>
 
-            <div className="mt-5">
-              <button className="primary__btn">
-                <a href = "mailto: githaigakairuthi56@gmail.com">Get In Touch</a>
-                {/* <Link href="#portfolio">My Portfolio</Link> */}
-              </button>
+            <p>
+              Currently, I&apos;m a fulltime freelancer. I&apos;ve built a Rental Management System, having over 1000+ users (and counting!). My job often revolves around (ab)using PostgreSQL, Redis, and containers to build efficient and scalable systems. I believe that the simple solution to engineering problems is the best until proven otherwise.
+            </p>
 
-              <button className="secondary__btn">
-              <a href="/files/pykon_ticket.pdf" download>Download Resume</a>
-               </button>
-            </div>
-          </Col>
+            <p>
+            Previously I spent my time creating data collection and email marketing systems for e-commerce companies. 
+            </p>
 
-          <Col lg="6" md="6" className={`${classes.service__title} mt-5`}>
-            {/* <div className={`${classes.about__img__gallery} d-flex gap-4 justify-content-end`}> */}
-            
-              {/* <SectionSubtitle subtitle="Skills" /> */}
-                {/* <div className=" d-flex flex-column mb-3">
-                  <div
-                    className={`${classes.about__img} ${classes.about__img__box}`}
-                  >
-                    <Image src={img01} alt="about-img" />
-                  </div>
+            <p>
+            When I&apos;m not programming, I like to hike trails and bike around Nairobi, swimming due to a constantly hot weather and adopt additional houseplants. I&apos;m constantly learning about new and old technologies.
+            </p>
 
-                  <div
-                    className={`${classes.about__img} ${classes.about__img__box}`}
-                  >
-                    <Image src={img02} alt="about-img" />
-                  </div>
-                </div>
-
-                <div className=" d-flex flex-column mb-3">
-                  <div
-                    className={`${classes.about__img} ${classes.about__img__box}`}
-                  >
-                    <Image src={img03} alt="about-img" />
-                  </div>
-
-                  <div
-                    className={`${classes.about__img} ${classes.about__img__box}`}
-                  >
-                    <Image src={img04} alt="about-img" />
-                  </div>
-                </div>
-            */}
-              <div className=" d-flex align-items-center gap-5">
-                <div>
-                  {skills.map((skill) => (
-                    <h6 key={skill.skill} className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                      <span className={`${classes.about__icon}`}>
-                        <i className="ri-checkbox-circle-line"></i>
-                      </span>
-                      {skill.skill}
-                    </h6>
-                  ))}
-                </div>
-
-                <div>
-                  {skills2.map((skill) => (
-                    <h6 key={skill.skill} className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                      <span className={`${classes.about__icon}`}>
-                        <i className="ri-checkbox-circle-line"></i>
-                      </span>
-                      {skill.skill}
-                    </h6>
-                  ))}
-                </div>
-
-                {/* <div>
-                  {skills2.map((skill) => (
-                    <h6 key={skill.skill} className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                      <span className={`${classes.about__icon}`}>
-                        <i className="ri-checkbox-circle-line"></i>
-                      </span>
-                      {skill.skill}
-                    </h6>
-                  ))}
-                </div> */}
-
-              </div>
-              
-
-            {/* </div> */}
-
-          </Col>
-        </Row>
+            <p>
+            You can find some code samples, designs, and creations of mine over at my <a href="https://www.github.com/LawandahP">github</a>. I&apos;m also interested in hearing of new opportunities, partnering up with another developer, or making new friends!
+            </p>
       </Container>
     </section>
   );

@@ -22,6 +22,18 @@ const Services = () => {
               <li>Installing and configure server environments for React deployments</li>
               <li>Maintain and update project dependencies as well as fix any conflicts</li>
             </ul>
+
+            <div className="mt-5">
+                <a href = "mailto: githaigakairuthi56@gmail.com">
+                  <button className="primary__btn">Get In Touch</button>
+                </a>
+                  {/* <Link href="#portfolio">My Portfolio</Link> */}
+                
+
+                <button className="secondary__btn">
+                  <a href="/files/pykon_ticket.pdf" download>My Resume</a>
+                </button>
+              </div>
           </Col>
           
           <Col lg="6" md="6">

@@ -25,13 +25,14 @@ const Hero = () => {
                   I&apos;m <Typed
                               strings={[
                                 "Githaiga Kairuthi",
-                                "a Software Engineer"
+                                "a Full Stack Developer"
                               ]}
-                              typeSpeed={50}
-                              backSpeed={100}
+                              typeSpeed={250}
+                              backSpeed={50}
                               backDelay={10}
                               loop
                             />
+                            
                 </div>
 
               <p></p>
@@ -43,13 +44,15 @@ const Hero = () => {
                 quos! */}
               </p>
               <div className="mt-5">
-                <button className="primary__btn">
-                  <a href = "mailto: githaigakairuthi56@gmail.com">Get In Touch</a>
+                
+                <a href = "mailto: githaigakairuthi56@gmail.com">
+                  <button className="primary__btn">Get In Touch</button>
+                </a>
                   {/* <Link href="#portfolio">My Portfolio</Link> */}
-                </button>
+                
 
                 <button className="secondary__btn">
-                  <a href="/files/pykon_ticket.pdf" download>Download Resume</a>
+                  <a href="/files/pykon_ticket.pdf" download>My Resume</a>
                 </button>
               </div>
             </div>

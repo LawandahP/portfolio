@@ -2,6 +2,10 @@
   color: #01d293 !important;
 }
 
+.h4 {
+  color: #808dad;
+}
+
 @media only screen and (max-width: 768px) {
   .tab__btns {
     text-align: left !important;

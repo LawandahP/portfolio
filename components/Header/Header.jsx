@@ -3,6 +3,7 @@ import React, { useRef, useEffect } from "react";
 import { Container } from "reactstrap";
 import classes from "./header.module.css";
 import Link from "next/link";
+import { DiGithub, DiGithubAlt } from "react-icons/di";
 
 const NAV__LINK = [
   {
@@ -59,7 +60,7 @@ const Header = () => {
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
             <h1>
-              <span>G</span>ithaiga
+              <span>Githaiga</span>
             </h1>
           </div>
 
@@ -75,6 +76,13 @@ const Header = () => {
                   {item.display}
                 </Link>
               ))}
+
+              <div className={`${classes.nav__right}`}>
+                <p className=" d-flex align-items-center gap-2 mb-0">
+                  {" "}
+                  <DiGithubAlt /> <a href="https://github.com/lawandahP">github</a>{" "}
+                </p>
+              </div>
 
               <div className={`${classes.nav__right}`}>
                 <p className=" d-flex align-items-center gap-2 mb-0">
