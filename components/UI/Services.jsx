@@ -31,7 +31,7 @@ const Services = () => {
                 
 
                 <button className="secondary__btn">
-                  <a href="/files/pykon_ticket.pdf" download>My Resume</a>
+                  <a href="/files/githaiga_resume.pdf" download>My Resume</a>
                 </button>
               </div>
           </Col>

@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import heroImg from "../../public/images/hero.jpg";
 import classes from "../../styles/hero.module.css";
-// import CV from "../../public/files/pykon_ticket.pdf"
 import Typed from "react-typed";
 
 
@@ -52,7 +51,7 @@ const Hero = () => {
                 
 
                 <button className="secondary__btn">
-                  <a href="/files/pykon_ticket.pdf" download>My Resume</a>
+                  <a href="/files/githaiga_resume.pdf" download>My Resume</a>
                 </button>
               </div>
             </div>
