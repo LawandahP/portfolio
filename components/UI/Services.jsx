@@ -23,7 +23,7 @@ const Services = () => {
               <li>Maintain and update project dependencies as well as fix any conflicts</li>
             </ul>
 
-            <div className="mt-5">
+            <div className="mt-5 mb-5">
                 <a href = "mailto: kairuthigithaiga@gmail.com">
                   <button className="primary__btn">Get In Touch</button>
                 </a>
