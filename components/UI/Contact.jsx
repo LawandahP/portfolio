@@ -20,18 +20,21 @@ const Contact = () => {
             </p> */}
 
             <ul className={`${classes.contact__info__list}`}>
+
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-map-pin-line"></i>
                 </span>
                 <p>Nairobi - Kenya</p>
               </li>
+
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-mail-line"></i>
                 </span>
-                <p><a className={`${classes.contact__item}`} href = "mailto: githaigakairuthi56@gmail.com">githaigakairuthi56@gmail.com</a></p>
+                <p><a className={`${classes.contact__item}`} href = "mailto: kairuthigithaiga@gmail.com">kairuthigithaiga@gmail.com</a></p>
               </li>
+
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-phone-line"></i>
@@ -50,7 +53,7 @@ const Contact = () => {
               {/* <Link href="#">
                 <i className="ri-facebook-line"></i>
               </Link> */}
-              <Link href="#">
+              <Link href="https://www.linkedin.com/in/githaiga-kairuthi/">
                 <i className="ri-linkedin-line"></i>
               </Link>
               {/* <Link href="#">

@@ -24,7 +24,7 @@ const Services = () => {
             </ul>
 
             <div className="mt-5">
-                <a href = "mailto: githaigakairuthi56@gmail.com">
+                <a href = "mailto: kairuthigithaiga@gmail.com">
                   <button className="primary__btn">Get In Touch</button>
                 </a>
                   {/* <Link href="#portfolio">My Portfolio</Link> */}
